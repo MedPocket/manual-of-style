@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Standardized SKILL structure for AI Agent integration and documentation synchronization across projects.
+- Standardized `AGENTS.md` Skill structure based on `vercel-labs/agent-skills` format for AI Agent integration and cross-project documentation sync.
 - Frontmatter metadata and Agent auto-detection directives in root `SKILL.md`.
-- Multi-language support with dedicated guidelines in English (`skills/en/SKILL.md`) and Vietnamese (`skills/vi/SKILL.md`).
-- Version tracking via `VERSION` file, `CHANGELOG.md`, and version headers.
+- Multi-language support with dedicated guidelines in English (`skills/en/AGENTS.md`) and Vietnamese (`skills/vi/AGENTS.md`).
+- Version management embedded in document headers (`**Version 1.0.0**`) and `CHANGELOG.md`.
 - Comprehensive `README.md` with usage instructions and `AGENTS.md` integration patterns.

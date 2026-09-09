@@ -1,50 +1,58 @@
----
-name: medical-writing-style-guide-en
-version: 1.0.0
-language: en
-title: Medical Writing & Documentation Style Guide (English)
----
-
 # Medical Writing & Documentation Style Guide
 
-> **Based on the _AMA Manual of Style_ (11th Edition)**
-> _A comprehensive guide for authors, technical writers, editors, and documentation teams producing clinical articles, documentation sites, and medical educational content._
+**Version 1.0.0**
+Medpocket Engineering
+September 2026
+
+> **Note:**
+> This document is mainly for agents and LLMs to follow when maintaining,
+> generating, or refactoring medical documentation, clinical articles, and user guides.
+> Humans may also find it useful, but guidance here is optimized for automation
+> and consistency by AI-assisted workflows.
+
+---
+
+## Abstract
+
+Guide to maintaining visual, linguistic, and structural consistency across all Medpocket documentation, clinical articles, and learning materials. Adheres to the _AMA Manual of Style (11th Edition)_ and international standards for clinical writing and reporting.
 
 ---
 
 ## Table of Contents
 
-1. [Overview & Core Directives](#1-overview--core-directives)
-2. [Document & Article Structure](#2-document--article-structure)
-   - [Standard Article Types](#standard-article-types)
-   - [IMRAD Format](#imrad-format)
-   - [Titles and Subtitles](#titles-and-subtitles)
-   - [Abstracts (Structured & Unstructured)](#abstracts-structured--unstructured)
-3. [Medical Terminology & Inclusive Language](#3-medical-terminology--inclusive-language)
-   - [Person-First & Inclusive Language](#person-first--inclusive-language)
-   - [Correct and Preferred Usage](#correct-and-preferred-usage)
-   - [Drug & Device Nomenclature](#drug--device-nomenclature)
-   - [Genetics & Biological Nomenclature](#genetics--biological-nomenclature)
-4. [Data Presentation & Statistical Reporting](#4-data-presentation--statistical-reporting)
-   - [Statistical Values & Measures](#statistical-values--measures)
-   - [P-Values and Confidence Intervals](#p-values-and-confidence-intervals)
-   - [Tables, Figures, and Data Displays](#tables-figures-and-data-displays)
-5. [Citations & References (AMA 11th Edition)](#5-citations--references-ama-11th-edition)
-   - [In-Text Citations](#in-text-citations)
-   - [Reference List Format](#reference-list-format)
-   - [DOIs and URLs](#dois-and-urls)
-6. [Ethical & Authorial Standards](#6-ethical--authorial-standards)
-   - [Authorship Criteria (ICMJE)](#authorship-criteria-icmje)
-   - [Conflicts of Interest & Disclosures](#conflicts-of-interest--disclosures)
-   - [Patient Privacy & Informed Consent](#patient-privacy--informed-consent)
-7. [Grammar, Mechanics & Units of Measure](#7-grammar-mechanics--units-of-measure)
-   - [Capitalization Rules](#capitalization-rules)
-   - [Punctuation & Hyphenation](#punctuation--hyphenation)
-   - [SI Units & Numerals](#si-units--numerals)
+1. [Overview & Core Directives](#1-overview--core-directives) — **CRITICAL**
+2. [Document & Article Structure](#2-document--article-structure) — **HIGH**
+   - 2.1 [Standard Article Types](#standard-article-types)
+   - 2.2 [IMRAD Format](#imrad-format)
+   - 2.3 [Titles and Subtitles](#titles-and-subtitles)
+   - 2.4 [Abstracts (Structured & Unstructured)](#abstracts-structured--unstructured)
+3. [Medical Terminology & Inclusive Language](#3-medical-terminology--inclusive-language) — **HIGH**
+   - 3.1 [Person-First & Inclusive Language](#person-first--inclusive-language)
+   - 3.2 [Correct and Preferred Usage](#correct-and-preferred-usage)
+   - 3.3 [Drug & Device Nomenclature](#drug--device-nomenclature)
+   - 3.4 [Genetics & Biological Nomenclature](#genetics--biological-nomenclature)
+4. [Data Presentation & Statistical Reporting](#4-data-presentation--statistical-reporting) — **HIGH**
+   - 4.1 [Statistical Values & Measures](#statistical-values--measures)
+   - 4.2 [P-Values and Confidence Intervals](#p-values-and-confidence-intervals)
+   - 4.3 [Tables, Figures, and Data Displays](#tables-figures-and-data-displays)
+5. [Citations & References (AMA 11th Edition)](#5-citations--references-ama-11th-edition) — **MEDIUM**
+   - 5.1 [In-Text Citations](#in-text-citations)
+   - 5.2 [Reference List Format](#reference-list-format)
+   - 5.3 [DOIs and URLs](#dois-and-urls)
+6. [Ethical & Authorial Standards](#6-ethical--authorial-standards) — **HIGH**
+   - 6.1 [Authorship Criteria (ICMJE)](#authorship-criteria-icmje)
+   - 6.2 [Conflicts of Interest & Disclosures](#conflicts-of-interest--disclosures)
+   - 6.3 [Patient Privacy & Informed Consent](#patient-privacy--informed-consent)
+7. [Grammar, Mechanics & Units of Measure](#7-grammar-mechanics--units-of-measure) — **MEDIUM**
+   - 7.1 [Capitalization Rules](#capitalization-rules)
+   - 7.2 [Punctuation & Hyphenation](#punctuation--hyphenation)
+   - 7.3 [SI Units & Numerals](#si-units--numerals)
 
 ---
 
 ## 1. Overview & Core Directives
+
+**Impact: CRITICAL**
 
 High-quality medical writing requires clarity, precision, objectivity, and strict adherence to scientific and ethical standards. Whether creating clinical research reports, medical documentation site guides, or educational content, follow these core principles:
 
@@ -56,6 +64,8 @@ High-quality medical writing requires clarity, precision, objectivity, and stric
 ---
 
 ## 2. Document & Article Structure
+
+**Impact: HIGH**
 
 ### Standard Article Types
 
@@ -113,6 +123,8 @@ For research reports and systematic reviews, use a **structured abstract** (up t
 
 ## 3. Medical Terminology & Inclusive Language
 
+**Impact: HIGH**
+
 ### Person-First & Inclusive Language
 
 Language must remain objective, respectful, and person-centered. Avoid defining individuals by their medical conditions, age, or socioeconomic status.
@@ -156,6 +168,8 @@ Language must remain objective, respectful, and person-centered. Avoid defining 
 
 ## 4. Data Presentation & Statistical Reporting
 
+**Impact: HIGH**
+
 ### Statistical Values & Measures
 
 1. **Descriptive Statistics:**
@@ -189,6 +203,8 @@ Language must remain objective, respectful, and person-centered. Avoid defining 
 ---
 
 ## 5. Citations & References (AMA 11th Edition)
+
+**Impact: MEDIUM**
 
 ### In-Text Citations
 
@@ -242,6 +258,8 @@ Author(s) or Organization. Title of web page/document. Name of Website. Publishe
 
 ## 6. Ethical & Authorial Standards
 
+**Impact: HIGH**
+
 ### Authorship Criteria (ICMJE)
 
 All listed authors must satisfy **all 4** International Committee of Medical Journal Editors (ICMJE) criteria:
@@ -267,6 +285,8 @@ _Contributors who do not meet all 4 criteria should be acknowledged in an Acknow
 ---
 
 ## 7. Grammar, Mechanics & Units of Measure
+
+**Impact: MEDIUM**
 
 ### Capitalization Rules
 

@@ -7,15 +7,17 @@ languages:
   - vi
 default_language: en
 skill_paths:
-  en: skills/en/SKILL.md
-  vi: skills/vi/SKILL.md
-version_file: VERSION
+  en: skills/en/AGENTS.md
+  vi: skills/vi/AGENTS.md
 changelog_file: CHANGELOG.md
 ---
 
 # Medpocket Manual of Style (Agent Skill)
 
-> **Version:** 1.0.0
+**Version 1.0.0**
+Medpocket Engineering
+September 2026
+
 > **Purpose:** Standardized guide and prompt rules for AI Agents generating, updating, and synchronizing medical writing and clinical documentation across projects.
 
 ---
@@ -25,15 +27,15 @@ changelog_file: CHANGELOG.md
 When an AI Agent is tasked with generating or updating medical documentation in a repository referencing this skill:
 
 1. **Version Detection & Sync Verification:**
-   - Check the `version` field in this `SKILL.md` (or `VERSION` file).
-   - Compare the version in your current project's `AGENTS.md` (e.g. `Medpocket Manual of Style v1.0.0`) against `CHANGELOG.md` or `VERSION` in this repository.
+   - Check the version header (`**Version X.Y.Z**`) in the target skill document (`skills/en/AGENTS.md` or `skills/vi/AGENTS.md`).
+   - Compare the version in your current project's `AGENTS.md` against `CHANGELOG.md` or the header in this repository.
    - If a higher version is available, notify the user or update the version reference in `AGENTS.md`.
 
 2. **Language Selection:**
    - Determine target language for the documentation:
-     - For English documentation, refer to [`skills/en/SKILL.md`](./skills/en/SKILL.md).
-     - For Vietnamese documentation, refer to [`skills/vi/SKILL.md`](./skills/vi/SKILL.md).
-   - If not specified, default to English (`skills/en/SKILL.md`).
+     - For English documentation, refer to [`skills/en/AGENTS.md`](./skills/en/AGENTS.md).
+     - For Vietnamese documentation, refer to [`skills/vi/AGENTS.md`](./skills/vi/AGENTS.md).
+   - If not specified, default to English (`skills/en/AGENTS.md`).
 
 3. **Core Compliance Rules:**
    - Follow AMA 11th Edition citation and statistical guidelines.
@@ -45,8 +47,8 @@ When an AI Agent is tasked with generating or updating medical documentation in 
 
 ## Quick Language Links
 
-- 🇬🇧 [English Medical Writing Style Guide](./skills/en/SKILL.md)
-- 🇻🇳 [Hướng dẫn Phong cách Viết Y khoa Tiếng Việt](./skills/vi/SKILL.md)
+- 🇬🇧 [English Medical Writing Style Guide](./skills/en/AGENTS.md)
+- 🇻🇳 [Hướng dẫn Phong cách Viết Y khoa Tiếng Việt](./skills/vi/AGENTS.md)
 
 ---
 
